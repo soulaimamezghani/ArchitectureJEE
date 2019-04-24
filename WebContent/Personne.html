@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<link rel="stylesheet" href="css/bootstrap.css" />
+<title>Inscription HTML</title>
+
+</head>
+
+<body>
+	<div class="container">
+		<h1>Formulaire</h1>
+		<form action="ServletPersonne" method="get" id="form-inscription">
+			<div class="form">
+			<label for="id">Id</label> <input id="id" name="id" required />
+			
+				<label for="nom">Nom</label> <input id="nom" name="nom" required/>
+			</div>
+			<div>
+				<label for="prenom">Prenom</label> <input id="prenom" name="prenom" required/>
+			</div>
+			
+			<div>
+			<label for="age">Age</label> <input id="age" type="number" name="age" required />
+			</div>
+			
+			<button type="ajoute">Ajouter</button>
+
+		</form>
+	</div>
+</body>
+</html>
